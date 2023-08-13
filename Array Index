@@ -1,1 +1,8 @@
+Using Array Index
 
+
+a = "aufwiedersehen"
+
+print(a[1])      # output = u
+print(a[0:8])    # output = aufwiede --- the value in index 8 no will not print it will print upto index 7
+print(a[1:8:2])  # output = uwee  

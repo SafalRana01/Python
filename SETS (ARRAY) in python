@@ -1,1 +1,46 @@
+# LIST WORKS AS ARRAY IN PYTHON SO LIST START FROM HERE
 
+marks = [50, 20, 30, 49, 78, 57, 92, 47, 88, 91]
+names = ["Safal", "AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG", "HHH", "III"]
+
+print(marks)
+print(names)
+print(marks[-1])
+
+i = 0
+while i <= 9:
+    print("The marks of",names[i],"in math is",marks[i])
+    i += 1
+
+# ------TO ADD NUMBERS IN ARRAY
+marks.append(77)     #IT WILL ADD 77 AT LAST
+print(marks)
+
+# ------TO CHANge the value inside array
+marks[4] = 88  #If i change the value of index[4] i.e 78 to 88 this is the syntax
+print(marks)
+
+# ------To clear all values
+marks.clear()
+print(marks)
+
+# -------TO Insert inside in middle
+# ----IF i want to put 35 after 20 and before 30 this is the syntax
+marks.insert(2, 35)  
+print(marks)
+
+# --------To REmove any number from array
+# ------If i want to remove 92 from array then
+marks.remove(92)
+print(marks)
+
+# -----Next process to remove the number using pop
+#   bUt for this you have to write index number instead of values
+marks.pop(3)   #it will remove 49 value
+print(marks)
+
+# -----To arrange in ascending order
+marks.sort()
+print(marks)
+
+#-----------------------LIST END HERE--------------------------------

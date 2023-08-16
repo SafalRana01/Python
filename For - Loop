@@ -1,1 +1,8 @@
+for i in  range(11):
+    print(i)   #It will print the number from 0 - 10
 
+for i in range(1,11):
+    print(i)   # It will print the number from 1 - 10
+
+for i in range(1,11):
+    print("7 X",i,"=",7*i)

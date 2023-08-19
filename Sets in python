@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+'''                   LIST                       |     TUPLE                       |    SETS
+(a)= value can be changed and can be assigned    | both is not possible            | both is not possible
+     or add easily
+(b)= can display any index number                | can display any index number    | cannot display this also
+(c)= denoted by BIG BRACKETS "[]"                | SMALL BRACKETS "()"             | CURLY BRACKETS {}
+'''

@@ -1,1 +1,13 @@
 
+# -- Binary to decimal and decimal to Binary/ octol/ ------------------------
+
+
+a = 10
+b = 0b1010
+c = 0xe
+print(bin(a)) #Output = 0b1010   where 0b is binary
+print(b)  # output = 10
+print(oct(a))  # output = 0c12   where 0c is octol
+print(hex(a))   # output  0xa   where 0x is hex
+print(c)        # output = 14
+

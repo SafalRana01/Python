@@ -1,3 +1,5 @@
+# Initilization - condition - increment/decrement
+
 # Printing number from 0 - 10 using while loop
 i = 0
 while i <= 10:
@@ -21,5 +23,15 @@ while i <= 10:
     i += 1
 
 
-# Initilization - condition - increment/decrement
+# ----------------------------------------------------------------------------------------
+
+names = ["Safal", "Mohit", "Hemanta", "Biwash", "Rijan"]
+marks = [87, 89, 98, 78, 77]
+subject = 'Math'
+
+i = 0
+while i <= 4:
+    print(names[i],"mark in",subject,"is",marks[i])
+    i += 1
+#  -------------------------------------------------------------
 

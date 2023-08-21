@@ -52,3 +52,17 @@ print(marks)
 (b)= can display any index number                | can display any index number    | cannot display this also
 (c)= denoted by BIG BRACKETS "[]"                | SMALL BRACKETS "()"             | CURLY BRACKETS {}
 '''
+
+# --------------------------------------------------------------------------------
+numbers = [22, 43, 65, 76, 43, 77, 90, 65, 32, 54, 66, 75, 65]
+
+numbers.append(99)  #To add any number in list
+numbers.clear()  # To clear all the list's data/ numbers
+numbers.remove(75) # To remove any number for example 75 from the list 
+numbers.pop(5)   # It remove 77 from the list but we have to write index number
+numbers.insert(5,98) # It put the value 98 in index 5 i.e after 43
+numbers.sort()    # It will helps to arrange the number in ascending order
+numbers[6] = 00    # It will change the value of index 6 i.e 90 to 0
+print(numbers)
+# -----------------------------------------------------------------
+

@@ -24,3 +24,44 @@ print("The remainder of the number is",rem)
 
 # ------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------
+
+#  Using For Loop proper syntax
+# Start - stop - step
+
+
+
+days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+for i in (days):
+    print(i)     #It will print all the weeks name
+
+# Printing the number from 0 to 10
+for i in  range(11):
+    print(i)   #It will print the number from 0 - 10
+
+# Printing number from 1 to 10
+for i in range(1,11):
+    print(i)   # It will print the number from 1 - 10
+
+# Printing table of seven
+for i in range(1,11):
+    print("7 X",i,"=",7*i)
+
+
+# ----Print from a to b range-----------
+for i in range(10,16,1): # 10 starting point, 16 ending range, 1 increment range by 1 
+    print(i)  # It will print from 10 to 15 only
+
+
+
+# ------------BReak and CONTINUE in loop----------------------
+for i in range(11):
+    # if (i == 4):
+    #     break   # it will print the number upto 3
+    # print(i)  #Output  0, 1, 2, 3
+    if (i == 4):
+        continue  # it will skip the number 4 to print
+    print(i)   #Output  0, 1, 2, 3, 5, 6, 7, 8, 9, 10
+
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------

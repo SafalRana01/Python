@@ -107,3 +107,20 @@ while i <= 4:
 
 # ------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------
+
+
+#    Using Array Index
+
+
+a = "aufwiedersehen"
+
+print(a[1])      # output = u
+print(a[0:8])    # output = aufwiede --- the value in index 8 no will not print it will print upto index 7
+print(a[1:8:2])  # output = uwee  
+
+#  Start : stop : steps
+
+print(a[-1])     # output = n ---- It will print the last value i.e n 
+print(a[::-1])   # output = nehesredeiwfua
+''' It will print all the number from last as we have kept empty in start and stop which works as a default
+and -1 in steps part which will print the values from last''' 

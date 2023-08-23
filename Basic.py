@@ -124,3 +124,77 @@ print(a[-1])     # output = n ---- It will print the last value i.e n
 print(a[::-1])   # output = nehesredeiwfua
 ''' It will print all the number from last as we have kept empty in start and stop which works as a default
 and -1 in steps part which will print the values from last''' 
+
+
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
+
+# LIST WORKS AS ARRAY IN PYTHON SO LIST START FROM HERE
+
+marks = [50, 20, 30, 49, 78, 57, 92, 47, 88, 91]
+names = ["Safal", "AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG", "HHH", "III"]
+
+print(marks)
+print(names)
+print(marks[-1])
+
+i = 0
+while i <= 9:
+    print("The marks of",names[i],"in math is",marks[i])
+    i += 1
+
+# ------TO ADD NUMBERS IN ARRAY
+marks.append(77)     #IT WILL ADD 77 AT LAST
+print(marks)
+
+# ------TO CHANge the value inside array
+marks[4] = 88  #If i change the value of index[4] i.e 78 to 88 this is the syntax
+print(marks)
+
+# ------To clear all values
+marks.clear()
+print(marks)
+
+# -------TO Insert inside in middle
+# ----IF i want to put 35 after 20 and before 30 this is the syntax
+marks.insert(2, 35)  
+print(marks)
+
+# --------To REmove any number from array
+# ------If i want to remove 92 from array then
+marks.remove(92)
+print(marks)
+
+# -----Next process to remove the number using pop
+#   bUt for this you have to write index number instead of values
+marks.pop(3)   #it will remove 49 value
+print(marks)
+
+# -----To arrange in ascending order
+marks.sort()
+print(marks)
+
+#-----------------------LIST END HERE--------------------------------
+
+
+'''                   LIST                       |     TUPLE                       |    SETS
+(a)= value can be changed and can be assigned    | both is not possible            | both is not possible
+     or add easily
+(b)= can display any index number                | can display any index number    | cannot display this also
+(c)= denoted by BIG BRACKETS "[]"                | SMALL BRACKETS "()"             | CURLY BRACKETS {}
+'''
+
+# --------------------------------------------------------------------------------
+numbers = [22, 43, 65, 76, 43, 77, 90, 65, 32, 54, 66, 75, 65]
+
+numbers.append(99)  #To add any number in list
+numbers.clear()  # To clear all the list's data/ numbers
+numbers.remove(75) # To remove any number for example 75 from the list 
+numbers.pop(5)   # It remove 77 from the list but we have to write index number
+numbers.insert(5,98) # It put the value 98 in index 5 i.e after 43
+numbers.sort()    # It will helps to arrange the number in ascending order
+numbers[6] = 00    # It will change the value of index 6 i.e 90 to 0
+print(numbers)
+# -----------------------------------------------------------------
+

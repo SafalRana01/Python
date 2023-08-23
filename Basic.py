@@ -228,3 +228,24 @@ tp[3] = 99  #Output = error
 
 # ------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------
+
+# SET proper syntax in python
+
+
+numbers = {12, 54, 65, 76}
+print(numbers) # output = will display all the numbers of the brackets
+print(numbers[0]) # output = error
+numbers[4] = 29    #output = error 
+
+
+
+'''                   LIST                       |     TUPLE                       |    SETS
+(a)= value can be changed and can be assigned    | both is not possible            | both is not possible
+     or add easily
+(b)= can display any index number                | can display any index number    | cannot display this also
+(c)= denoted by BIG BRACKETS "[]"                | SMALL BRACKETS "()"             | CURLY BRACKETS {}
+'''
+
+
+# ------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
